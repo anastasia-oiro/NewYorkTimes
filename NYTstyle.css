@@ -4,7 +4,7 @@ body{
 }
 #navbutton{
     background-color: rgb(6, 6, 122);
-    padding: 10px;
+    padding:10px;
     color: white;
     text-align: center;
     border: none;   
@@ -48,7 +48,7 @@ body{
     float: right;
   }
   
-  /* Responsive navigation menu (for mobile devices) */
+  /* Responsive navigation menu (for mobile devices)
   @media screen and (max-width: 600px) {
     .topnav a, .topnav-right {
       float: none;
@@ -61,7 +61,7 @@ body{
       left: 0;
       transform: none;
     }
-}
+} */
 .space{
     text-align: center;
 }
@@ -277,9 +277,36 @@ width: 300px;
 .last-section{
   clear: both;
   width: 75%;
+  border-top: 1px ridge;
+  border-bottom: 1px ridge;
 }
 .last-grid{
   display: grid;
   grid-gap: 10px 10px;
   grid-template-columns: 150px 150px 150px 150px 150px;
+  
 }
+.news{
+  float: left;
+}
+.delivery{
+  float: right;
+  border-left: 1px ridge;
+  width: 24%;
+}
+ .last-section a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    } 
+.bottom-nav{
+  clear: both;
+}
+
+ .bottom-nav a{
+  color:grey;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 15px;
+    } 
